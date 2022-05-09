@@ -3,12 +3,12 @@ import React from "react";
 import {Header} from "antd/lib/layout/layout";
 import {ArrowRightOutlined} from "@ant-design/icons";
 
-const HeaderContainer = () => {
+const HeaderContainer = ({className} : {className: string}) => {
   return (
-      <Header>
+      <Header className={className}>
           <Menu mode="horizontal" theme={"dark"}>
-              <span>
-                  <Image src="img/logo.png" preview={false} width={160}/>
+              <span style={{float: "left"}}>
+                  <Image src="img/logo.png" preview={false} width={160} style={{margin: 20}}/>
               </span>
               <Menu.Item key="blog" style={{marginLeft: 'auto'}}>
                   블로그
