@@ -14,3 +14,7 @@
 .header ul {
     width: 100%;
 }
+
+.header > ul > li:hover {
+    background-color: transparent !important;
+}
