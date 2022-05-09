@@ -3,6 +3,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import HeaderContainer from "./HeaderContainer";
 import {Footer} from "antd/lib/layout/layout";
+import FooterContainer from "./FooterContainer";
 
 const name = 'ShapeShift'
 export const siteTitle = 'ShapeShift KR'
@@ -20,7 +21,9 @@ export default function Layout({
                 <HeaderContainer className={styles.header}/>
             </Head>
             <main>{children}</main>
-            <Footer>Footer</Footer>
+            <Footer>
+                <FooterContainer/>
+            </Footer>
         </div>
     )
 }

@@ -46,6 +46,36 @@ export default function Home() {
                     </Col>
                 </Row>
             </div>
+            <div className="site-card-border-less-wrapper">
+                <Row gutter={16}>
+                    <Col className="gutter-row" span={24}>
+                        <div>
+                            <Text type="secondary" style={{color: 'rgb(57 114 250)'}}>ESTABLISHED IN 2014.</Text>
+                            <h1 style={{color: 'white'}}>Trusted by thousands of investors.</h1>
+                        </div>
+                    </Col>
+                </Row>
+                <Row gutter={16}>
+                    <Col className="gutter-row" span={8}>
+                        <div>
+                            <Title style={{color: 'white'}}>$6,000,000,000</Title>
+                            <Text type="secondary" style={{color: 'rgb(57 114 250)'}}>LIFETIME TRADE VOLUME</Text>
+                        </div>
+                    </Col>
+                    <Col className="gutter-row" span={8}>
+                        <div>
+                            <Title style={{color: 'white'}}>150,000</Title>
+                            <Text type="secondary" style={{color: 'rgb(57 114 250)'}}>MONTHLY ACTIVE USERS</Text>
+                        </div>
+                    </Col>
+                    <Col className="gutter-row" span={8}>
+                        <div>
+                            <Title style={{color: 'white'}}>500,000</Title>
+                            <Text type="secondary" style={{color: 'rgb(57 114 250)'}}>WALLETS REGISTERED</Text>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
         </Layout>
     )
 }
