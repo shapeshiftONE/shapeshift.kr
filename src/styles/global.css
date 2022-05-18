@@ -48,16 +48,26 @@ img {
   background-color: transparent !important;
 }
 
-.site-card-border-less-wrapper {
+.site-card-border-navy-wrapper {
   padding: 30px;
   text-align: center;
   background: rgb(10, 24, 46) !important;
 }
 
-.site-gray-card-border-wrapper {
+.site-card-border-navy-wrapper > div {
+  width: 65rem;
+  margin: auto;
+}
+
+.site-card-border-gray-wrapper {
   padding: 30px;
   text-align: center;
   background: rgb(229, 231, 235) !important;
+}
+
+.site-card-border-gray-wrapper > div {
+  width: 65rem;
+  margin: auto;
 }
 
 .site-image {
