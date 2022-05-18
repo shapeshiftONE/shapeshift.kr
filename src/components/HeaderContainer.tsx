@@ -1,12 +1,14 @@
 import {Button, Image, Menu} from "antd";
 import React from "react";
+// @ts-ignore
+import styles from './layout.module.css'
 import {Header} from "antd/lib/layout/layout";
 import {ArrowRightOutlined} from "@ant-design/icons";
 import Link from "next/link";
 
-const HeaderContainer = ({className} : {className: string}) => {
+const HeaderContainer = () => {
   return (
-      <Header className={className}>
+      <Header className={styles.header}>
           <Menu mode="horizontal" theme={"dark"}>
               <span style={{float: "left"}}>
                   <a href={'/'}>

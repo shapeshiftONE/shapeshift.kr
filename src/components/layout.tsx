@@ -5,7 +5,6 @@ import HeaderContainer from "./HeaderContainer";
 import {Footer} from "antd/lib/layout/layout";
 import FooterContainer from "./FooterContainer";
 
-const name = 'ShapeShift'
 export const siteTitle = 'ShapeShift KR'
 
 export default function Layout({
@@ -18,7 +17,7 @@ export default function Layout({
     return (
         <div className={styles.container}>
             <Head>
-                <HeaderContainer className={styles.header}/>
+                <HeaderContainer/>
             </Head>
             <main>{children}</main>
             <Footer>
